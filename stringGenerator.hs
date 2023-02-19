@@ -7,8 +7,10 @@ numStrings = 1000
 
 fileName = "./strings.txt"
 
+charRange = ('a', 'z')
+
 randomString :: Int -> IO String
-randomString len = replicateM len $ randomRIO ('a', 'z')
+randomString len = replicateM len $ randomRIO charRange
 
 printToFile :: [String] -> IO ()
 printToFile lst = do
