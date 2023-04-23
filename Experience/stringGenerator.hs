@@ -18,6 +18,9 @@ printToFile lst = do
 
     writeFile fileName contents
 
+testFunc :: Int -> Int -> String
+testFunc n1 n2 = show n1 ++ show n2
+
 main :: IO ()
 main = do
     strings <- replicateM numStrings $ randomString stringLength

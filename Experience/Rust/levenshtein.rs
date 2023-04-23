@@ -16,7 +16,7 @@ fn levenshtein_distance(s: &str, t: &str) -> usize {
         return m;
     }
 
-    let mut d = vec![vec![0; n+1]; m+1];
+    let mut d = vec![vec![0; n + 1]; m + 1];
 
     for i in 0..=m {
         d[i][0] = i;
@@ -28,10 +28,10 @@ fn levenshtein_distance(s: &str, t: &str) -> usize {
 
     for j in 1..=n {
         for i in 1..=m {
-            if s.chars().nth(i-1) == t.chars().nth(j-1) {
-                d[i][j] = d[i-1][j-1];
+            if s.chars().nth(i - 1) == t.chars().nth(j - 1) {
+                d[i][j] = d[i - 1][j - 1];
             } else {
-                d[i][j] = 1 + min(d[i-1][j], d[i][j-1], d[i-1][j-1]);
+                d[i][j] = 1 + min(d[i - 1][j], d[i][j - 1], d[i - 1][j - 1]);
             }
         }
     }
@@ -52,5 +52,8 @@ fn main() {
 
     let distance = levenshtein_distance(s, t);
 
-    println!("Levenshtein distance between {} and {} is {}.", s, t, distance);
+    println!(
+        "Levenshtein distance between {} and {} is {}.",
+        s, t, distance
+    );
 }
