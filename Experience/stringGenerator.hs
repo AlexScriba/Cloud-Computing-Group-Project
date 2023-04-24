@@ -3,7 +3,7 @@ import System.Random (randomIO, randomRIO)
 
 stringLength = 100
 
-numStrings = 1000
+numStrings = 20
 
 fileName = "./strings.txt"
 
