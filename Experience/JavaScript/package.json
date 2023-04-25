@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prestart": "tsc",
-    "start": "node ./js/LevenshteinDistance.js"
+    "start": "node ./js/LevenshteinDistance.js ../strings.txt 4"
   },
   "author": "",
   "license": "ISC",
