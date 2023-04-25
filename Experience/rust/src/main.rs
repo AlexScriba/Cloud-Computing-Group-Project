@@ -1,9 +1,9 @@
-use std::{cmp, process};
+use std::env;
 use std::fs::File;
 use std::io::{BufRead, BufReader};
 use std::sync::{mpsc, Arc};
 use std::thread;
-use std::env;
+use std::{cmp, process};
 
 fn min(x: usize, y: usize, z: usize) -> usize {
     cmp::min(x, cmp::min(y, z))
@@ -53,7 +53,7 @@ fn compare_distances(
     println!("Thread dispatched for {}-{}", start, end);
 
     for i in start..end {
-        for j in i+1..words.len() {
+        for j in i + 1..words.len() {
             let distance = levenshtein_distance(&words[i], &words[j]);
             sender.send((i, j, distance)).unwrap();
         }
@@ -117,7 +117,7 @@ fn main() {
 
     // Collect the results and find the smallest distance
     let mut min_distance = usize::MAX;
-    let mut min_indices = (0,0);
+    let mut min_indices = (0, 0);
     for _ in 0..(words.len() * (words.len() - 1) / 2) {
         let (i, j, distance) = receiver.recv().unwrap();
         if distance < min_distance {
@@ -128,8 +128,8 @@ fn main() {
 
     // Print the most similar strings
     println!(
-    "Most similar string are: \n\t{} \n\t{} \nWith distance of {}",
-    words[min_indices.0], words[min_indices.1], min_distance
+        "Most similar string are: \n\t{} \n\t{} \nWith distance of {}",
+        words[min_indices.0], words[min_indices.1], min_distance
     );
 
     // Wait for all threads to finish
