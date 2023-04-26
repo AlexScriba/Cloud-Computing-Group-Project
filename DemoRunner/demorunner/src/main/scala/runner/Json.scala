@@ -5,13 +5,11 @@ import io.circe.generic.semiauto.deriveDecoder
 import scala.io.Source
 import scala.util.Try
 
-case class ExecutionSetup(args: List[String])
-
 case class LangData(
   name: String,
   dir: String,
   setup: ExecutionSetup,
-  execute: ExecutionSetup
+  run: ExecutionSetup
 )
 
 object Json {

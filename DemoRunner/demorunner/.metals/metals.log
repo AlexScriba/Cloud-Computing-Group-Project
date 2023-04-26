@@ -1161,3 +1161,588 @@ WARNING: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the r
 2023.04.25 17:33:48 INFO  time: compiled root in 0.32s[0m
 2023.04.25 17:36:23 INFO  compiling root (1 scala source)[0m
 2023.04.25 17:36:24 INFO  time: compiled root in 1.02s[0m
+2023.04.25 17:39:19 INFO  Shutting down server[0m
+2023.04.25 17:39:19 INFO  shutting down Metals[0m
+2023.04.25 17:39:19 INFO  Shut down connection with build server.[0m
+2023.04.25 17:39:19 INFO  Shut down connection with build server.[0m
+Apr 25, 2023 5:39:19 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.20.Final
+2023.04.26 13:48:46 INFO  Started: Metals version 0.11.12 in workspace '/Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner' for client Neovim 0.8.0.[0m
+Apr 26, 2023 1:48:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Apr 26, 2023 1:48:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Apr 26, 2023 1:48:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Apr 26, 2023 1:48:47 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner/.metals/metals (H2 2.1)
+Apr 26, 2023 1:48:47 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.011s)
+Apr 26, 2023 1:48:47 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Apr 26, 2023 1:48:47 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.26 13:48:47 INFO  time: initialize in 0.4s[0m
+2023.04.26 13:48:47 INFO  Attempting to connect to the build server...[0m
+2023.04.26 13:48:47 INFO  Selected port 5031[0m
+2023.04.26 13:48:47 INFO  Bloop uses /Users/alexscriba/.jabba/jdk/openjdk@1.17.0/Contents/Home defined at /Users/alexscriba/.bloop/bloop.json[0m
+Apr 26, 2023 1:48:47 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.20.Final
+Apr 26, 2023 1:48:47 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.9.Final
+Apr 26, 2023 1:48:47 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.9.Final
+2023.04.26 13:48:47 INFO  skipping build import with status 'Installed'[0m
+Apr 26, 2023 1:48:47 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2023.04.26 13:48:48 INFO  Started Metals http server at http://127.0.0.1:5031[0m
+2023.04.26 13:48:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner/.metals/bsp.trace.json or /Users/alexscriba/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.04.26 13:48:48 INFO  Attempting to connect to the build server...[0m
+2023.04.26 13:48:48 INFO  Bloop uses /Users/alexscriba/.jabba/jdk/openjdk@1.17.0/Contents/Home defined at /Users/alexscriba/.bloop/bloop.json[0m
+2023.04.26 13:48:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner/project/.metals/bsp.trace.json or /Users/alexscriba/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.04.26 13:48:48 INFO  time: Connected to build server in 1.11s[0m
+2023.04.26 13:48:48 INFO  Connected to Build server: Bloop v1.5.6[0m
+2023.04.26 13:48:51 INFO  time: indexed workspace in 3.16s[0m
+2023.04.26 13:48:52 INFO  compiling root-test (1 scala source)[0m
+2023.04.26 13:48:52 INFO  time: compiled root-test in 41ms[0m
+2023.04.26 13:49:33 INFO  Shutting down server[0m
+2023.04.26 13:49:33 INFO  shutting down Metals[0m
+2023.04.26 13:49:33 INFO  Shut down connection with build server.[0m
+2023.04.26 13:49:33 INFO  Shut down connection with build server.[0m
+Apr 26, 2023 1:49:33 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.20.Final
+2023.04.26 14:08:19 INFO  Started: Metals version 0.11.12 in workspace '/Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner' for client Neovim 0.8.0.[0m
+Apr 26, 2023 2:08:19 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Apr 26, 2023 2:08:19 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Apr 26, 2023 2:08:19 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Apr 26, 2023 2:08:19 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner/.metals/metals (H2 2.1)
+Apr 26, 2023 2:08:19 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.010s)
+Apr 26, 2023 2:08:19 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Apr 26, 2023 2:08:19 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.26 14:08:19 INFO  time: initialize in 0.37s[0m
+2023.04.26 14:08:19 INFO  Attempting to connect to the build server...[0m
+2023.04.26 14:08:19 INFO  Selected port 5031[0m
+2023.04.26 14:08:19 INFO  Bloop uses /Users/alexscriba/.jabba/jdk/openjdk@1.17.0/Contents/Home defined at /Users/alexscriba/.bloop/bloop.json[0m
+Apr 26, 2023 2:08:19 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.20.Final
+Apr 26, 2023 2:08:19 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.9.Final
+Apr 26, 2023 2:08:19 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.9.Final
+2023.04.26 14:08:19 INFO  skipping build import with status 'Installed'[0m
+Apr 26, 2023 2:08:19 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2023.04.26 14:08:21 INFO  Started Metals http server at http://127.0.0.1:5031[0m
+2023.04.26 14:08:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner/.metals/bsp.trace.json or /Users/alexscriba/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.04.26 14:08:21 INFO  Attempting to connect to the build server...[0m
+2023.04.26 14:08:21 INFO  Bloop uses /Users/alexscriba/.jabba/jdk/openjdk@1.17.0/Contents/Home defined at /Users/alexscriba/.bloop/bloop.json[0m
+2023.04.26 14:08:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner/project/.metals/bsp.trace.json or /Users/alexscriba/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.04.26 14:08:21 INFO  time: Connected to build server in 1.69s[0m
+2023.04.26 14:08:21 INFO  Connected to Build server: Bloop v1.5.6[0m
+2023.04.26 14:08:24 INFO  time: indexed workspace in 3.11s[0m
+2023.04.26 14:08:25 INFO  compiling root-test (1 scala source)[0m
+2023.04.26 14:08:25 INFO  time: compiled root-test in 44ms[0m
+2023.04.26 14:08:31 INFO  compiling root (1 scala source)[0m
+2023.04.26 14:08:31 INFO  time: compiled root in 0.1s[0m
+2023.04.26 14:08:46 INFO  Shutting down server[0m
+2023.04.26 14:08:46 INFO  shutting down Metals[0m
+2023.04.26 14:08:46 INFO  Shut down connection with build server.[0m
+2023.04.26 14:08:46 INFO  Shut down connection with build server.[0m
+Apr 26, 2023 2:08:46 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.20.Final
+2023.04.26 14:43:25 INFO  Started: Metals version 0.11.12 in workspace '/Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner' for client Neovim 0.8.0.[0m
+Apr 26, 2023 2:43:25 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Apr 26, 2023 2:43:25 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Apr 26, 2023 2:43:25 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Apr 26, 2023 2:43:25 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner/.metals/metals (H2 2.1)
+Apr 26, 2023 2:43:25 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.011s)
+Apr 26, 2023 2:43:25 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Apr 26, 2023 2:43:25 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.26 14:43:25 INFO  time: initialize in 0.35s[0m
+Apr 26, 2023 2:43:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "workspace/didChangeConfiguration",
+  "params": {
+    "settings": {
+      "metals": []
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:110)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ClassCastException: class com.google.gson.JsonArray cannot be cast to class com.google.gson.JsonObject (com.google.gson.JsonArray and com.google.gson.JsonObject are in unnamed module of loader java.net.URLClassLoader @7cca494b)
+	at com.google.gson.JsonObject.getAsJsonObject(JsonObject.java:221)
+	at scala.meta.internal.metals.MetalsLspService.didChangeConfiguration(MetalsLspService.scala:1328)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChangeConfiguration(DelegatingScalaService.scala:61)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+
+Apr 26, 2023 2:43:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "workspace/didChangeConfiguration",
+  "params": {
+    "settings": {
+      "metals": []
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:110)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ClassCastException: class com.google.gson.JsonArray cannot be cast to class com.google.gson.JsonObject (com.google.gson.JsonArray and com.google.gson.JsonObject are in unnamed module of loader java.net.URLClassLoader @7cca494b)
+	at com.google.gson.JsonObject.getAsJsonObject(JsonObject.java:221)
+	at scala.meta.internal.metals.MetalsLspService.didChangeConfiguration(MetalsLspService.scala:1328)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChangeConfiguration(DelegatingScalaService.scala:61)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+
+2023.04.26 14:43:25 ERROR Unexpected error initializing server: 
+java.lang.IllegalStateException: Not a JSON Object: []
+	at com.google.gson.JsonElement.getAsJsonObject(JsonElement.java:101)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$syncUserconfiguration$5(MetalsLspService.scala:2812)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2023.04.26 14:43:30 INFO  no build target found for /Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner/build.sbt. Using presentation compiler with project's scala-library version: 3.2.2[0m
+2023.04.26 15:26:20 WARN  no build target for: /Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner/src/main/scala/runner/Main.scala[0m
+2023.04.26 15:27:27 WARN  no build target for: /Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner/src/main/scala/runner/Main.scala[0m
+2023.04.26 15:27:35 WARN  no build target for: /Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner/src/main/scala/runner/Main.scala[0m
+2023.04.26 15:27:41 WARN  no build target for: /Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner/src/main/scala/runner/Main.scala[0m
+2023.04.26 15:27:51 WARN  no build target for: /Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner/src/main/scala/runner/Main.scala[0m
+2023.04.26 15:27:53 INFO  Shutting down server[0m
+2023.04.26 15:27:53 INFO  shutting down Metals[0m
+2023.04.26 15:28:03 INFO  Started: Metals version 0.11.12 in workspace '/Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner' for client Neovim 0.8.0.[0m
+Apr 26, 2023 3:28:03 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Apr 26, 2023 3:28:03 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Apr 26, 2023 3:28:03 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Apr 26, 2023 3:28:03 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner/.metals/metals (H2 2.1)
+Apr 26, 2023 3:28:03 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.011s)
+Apr 26, 2023 3:28:03 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Apr 26, 2023 3:28:03 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.26 15:28:03 INFO  time: initialize in 0.34s[0m
+Apr 26, 2023 3:28:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "workspace/didChangeConfiguration",
+  "params": {
+    "settings": {
+      "metals": []
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:110)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ClassCastException: class com.google.gson.JsonArray cannot be cast to class com.google.gson.JsonObject (com.google.gson.JsonArray and com.google.gson.JsonObject are in unnamed module of loader java.net.URLClassLoader @7cca494b)
+	at com.google.gson.JsonObject.getAsJsonObject(JsonObject.java:221)
+	at scala.meta.internal.metals.MetalsLspService.didChangeConfiguration(MetalsLspService.scala:1328)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChangeConfiguration(DelegatingScalaService.scala:61)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+
+Apr 26, 2023 3:28:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "workspace/didChangeConfiguration",
+  "params": {
+    "settings": {
+      "metals": []
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:110)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ClassCastException: class com.google.gson.JsonArray cannot be cast to class com.google.gson.JsonObject (com.google.gson.JsonArray and com.google.gson.JsonObject are in unnamed module of loader java.net.URLClassLoader @7cca494b)
+	at com.google.gson.JsonObject.getAsJsonObject(JsonObject.java:221)
+	at scala.meta.internal.metals.MetalsLspService.didChangeConfiguration(MetalsLspService.scala:1328)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChangeConfiguration(DelegatingScalaService.scala:61)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+
+2023.04.26 15:28:03 ERROR Unexpected error initializing server: 
+java.lang.IllegalStateException: Not a JSON Object: []
+	at com.google.gson.JsonElement.getAsJsonObject(JsonElement.java:101)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$syncUserconfiguration$5(MetalsLspService.scala:2812)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2023.04.26 15:28:25 INFO  no build target found for /Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner/src/main/scala/runner/Main.scala. Using presentation compiler with project's scala-library version: 3.2.2[0m
+2023.04.26 15:28:25 INFO  Shutting down server[0m
+2023.04.26 15:28:25 INFO  shutting down Metals[0m
+2023.04.26 15:30:54 INFO  Started: Metals version 0.11.12 in workspace '/Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner' for client Neovim 0.8.0.[0m
+Apr 26, 2023 3:30:54 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Apr 26, 2023 3:30:54 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Apr 26, 2023 3:30:54 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Apr 26, 2023 3:30:54 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner/.metals/metals (H2 2.1)
+Apr 26, 2023 3:30:54 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.010s)
+Apr 26, 2023 3:30:54 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Apr 26, 2023 3:30:54 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.26 15:30:55 INFO  time: initialize in 0.33s[0m
+2023.04.26 15:30:55 INFO  Attempting to connect to the build server...[0m
+2023.04.26 15:30:55 INFO  Selected port 5031[0m
+2023.04.26 15:30:55 INFO  Bloop uses /Users/alexscriba/.jabba/jdk/openjdk@1.17.0/Contents/Home defined at /Users/alexscriba/.bloop/bloop.json[0m
+Apr 26, 2023 3:30:55 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.20.Final
+Apr 26, 2023 3:30:55 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.9.Final
+Apr 26, 2023 3:30:55 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.9.Final
+2023.04.26 15:30:55 INFO  skipping build import with status 'Installed'[0m
+Apr 26, 2023 3:30:55 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2023.04.26 15:30:57 INFO  Started Metals http server at http://127.0.0.1:5031[0m
+2023.04.26 15:30:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner/.metals/bsp.trace.json or /Users/alexscriba/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.04.26 15:30:57 INFO  Attempting to connect to the build server...[0m
+2023.04.26 15:30:57 INFO  Bloop uses /Users/alexscriba/.jabba/jdk/openjdk@1.17.0/Contents/Home defined at /Users/alexscriba/.bloop/bloop.json[0m
+2023.04.26 15:30:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner/project/.metals/bsp.trace.json or /Users/alexscriba/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.04.26 15:30:57 INFO  time: Connected to build server in 2.29s[0m
+2023.04.26 15:30:57 INFO  Connected to Build server: Bloop v1.5.6[0m
+2023.04.26 15:31:00 INFO  time: indexed workspace in 3.2s[0m
+2023.04.26 15:31:00 INFO  compiling root (1 scala source)[0m
+2023.04.26 15:31:01 INFO  time: compiled root in 1s[0m
+2023.04.26 15:31:01 INFO  compiling root (1 scala source)[0m
+2023.04.26 15:31:01 INFO  time: compiled root in 49ms[0m
+Apr 26, 2023 3:31:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2023.04.26 15:31:30 INFO  compiling root (1 scala source)[0m
+2023.04.26 15:31:30 INFO  time: compiled root in 0.59s[0m
+2023.04.26 15:32:01 INFO  compiling root (1 scala source)[0m
+2023.04.26 15:32:02 INFO  time: compiled root in 1.31s[0m
+2023.04.26 15:33:02 INFO  compiling root (1 scala source)[0m
+2023.04.26 15:33:04 INFO  time: compiled root in 1.69s[0m
+something's wrong: no file:///Users/alexscriba/Documents/Programming/University/CS4296%20-%20Cloud%20Computing/Group%20Project/DemoRunner/demorunner/src/main/scala/runner/Main.scala in Either[Error,<error>]RangePosition(file:///Users/alexscriba/Documents/Programming/University/CS4296%20-%20Cloud%20Computing/Group%20Project/DemoRunner/demorunner/src/main/scala/runner/Main.scala, 413, 413, 435)
+something's wrong: no file:///Users/alexscriba/Documents/Programming/University/CS4296%20-%20Cloud%20Computing/Group%20Project/DemoRunner/demorunner/src/main/scala/runner/Main.scala in Either[Error,<error>]RangePosition(file:///Users/alexscriba/Documents/Programming/University/CS4296%20-%20Cloud%20Computing/Group%20Project/DemoRunner/demorunner/src/main/scala/runner/Main.scala, 413, 413, 436)
+Apr 26, 2023 3:33:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 121
+2023.04.26 15:33:51 INFO  compiling root (1 scala source)[0m
+2023.04.26 15:33:51 INFO  time: compiled root in 0.14s[0m
+2023.04.26 15:33:57 INFO  compiling root (1 scala source)[0m
+2023.04.26 15:33:57 INFO  time: compiled root in 0.61s[0m
+2023.04.26 15:34:12 INFO  compiling root (1 scala source)[0m
+2023.04.26 15:34:12 INFO  time: compiled root in 0.53s[0m
+2023.04.26 15:34:37 INFO  compiling root (1 scala source)[0m
+2023.04.26 15:34:37 INFO  time: compiled root in 0.51s[0m
+Apr 26, 2023 3:38:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 198
+2023.04.26 15:45:02 INFO  compiling root (1 scala source)[0m
+2023.04.26 15:45:02 INFO  time: compiled root in 54ms[0m
+2023.04.26 15:46:07 INFO  file:///Users/alexscriba/Documents/Programming/University/CS4296%20-%20Cloud%20Computing/Group%20Project/DemoRunner/demorunner/src/main/scala/runner/Main.scala:17:3: stale bloop error: 'case' expected but '}' found.
+  }
+  ^[0m
+2023.04.26 15:46:07 INFO  file:///Users/alexscriba/Documents/Programming/University/CS4296%20-%20Cloud%20Computing/Group%20Project/DemoRunner/demorunner/src/main/scala/runner/Main.scala:17:3: stale bloop error: 'case' expected but '}' found.
+  }
+  ^[0m
+2023.04.26 15:47:14 INFO  compiling root (1 scala source)[0m
+2023.04.26 15:47:14 INFO  time: compiled root in 0.14s[0m
+2023.04.26 15:47:25 INFO  file:///Users/alexscriba/Documents/Programming/University/CS4296%20-%20Cloud%20Computing/Group%20Project/DemoRunner/demorunner/src/main/scala/runner/Main.scala:15:13: stale bloop error: not found: type Mode
+  val mode: Mode = args.lift(0) match {
+            ^^^^[0m
+2023.04.26 15:47:25 INFO  file:///Users/alexscriba/Documents/Programming/University/CS4296%20-%20Cloud%20Computing/Group%20Project/DemoRunner/demorunner/src/main/scala/runner/Main.scala:15:13: stale bloop error: not found: type Mode
+  val mode: Mode = args.lift(0) match {
+            ^^^^[0m
+2023.04.26 15:47:55 INFO  file:///Users/alexscriba/Documents/Programming/University/CS4296%20-%20Cloud%20Computing/Group%20Project/DemoRunner/demorunner/src/main/scala/runner/Main.scala:15:13: stale bloop error: not found: type Mode
+  val mode: Mode = args.lift(0) match {
+            ^^^^[0m
+2023.04.26 15:47:55 INFO  file:///Users/alexscriba/Documents/Programming/University/CS4296%20-%20Cloud%20Computing/Group%20Project/DemoRunner/demorunner/src/main/scala/runner/Main.scala:15:13: stale bloop error: not found: type Mode
+  val mode: Mode = args.lift(0) match {
+            ^^^^[0m
+2023.04.26 15:48:20 INFO  compiling root (1 scala source)[0m
+2023.04.26 15:48:20 INFO  time: compiled root in 0.11s[0m
+2023.04.26 15:48:40 INFO  compiling root (1 scala source)[0m
+2023.04.26 15:48:40 INFO  time: compiled root in 0.1s[0m
+2023.04.26 15:50:05 INFO  compiling root (1 scala source)[0m
+2023.04.26 15:50:05 INFO  time: compiled root in 0.1s[0m
+2023.04.26 15:50:35 INFO  compiling root (1 scala source)[0m
+2023.04.26 15:50:35 INFO  time: compiled root in 0.12s[0m
+2023.04.26 15:50:43 INFO  compiling root (1 scala source)[0m
+2023.04.26 15:50:43 INFO  time: compiled root in 0.13s[0m
+2023.04.26 15:50:52 INFO  compiling root (1 scala source)[0m
+2023.04.26 15:50:52 INFO  time: compiled root in 0.94s[0m
+2023.04.26 15:50:54 INFO  compiling root (1 scala source)[0m
+2023.04.26 15:50:54 INFO  time: compiled root in 0.93s[0m
+2023.04.26 15:51:22 INFO  compiling root (1 scala source)[0m
+2023.04.26 15:51:25 INFO  time: compiled root in 2.41s[0m
+2023.04.26 15:51:37 INFO  compiling root (1 scala source)[0m
+2023.04.26 15:51:37 INFO  time: compiled root in 0.98s[0m
+2023.04.26 15:51:39 INFO  compiling root (1 scala source)[0m
+2023.04.26 15:51:39 INFO  time: compiled root in 0.29s[0m
+2023.04.26 15:52:14 INFO  compiling root (1 scala source)[0m
+2023.04.26 15:52:14 INFO  time: compiled root in 0.66s[0m
+Apr 26, 2023 3:52:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 520
+something's wrong: no file:///Users/alexscriba/Documents/Programming/University/CS4296%20-%20Cloud%20Computing/Group%20Project/DemoRunner/demorunner/src/main/scala/runner/Cmd.scala in List[<error>]RangePosition(file:///Users/alexscriba/Documents/Programming/University/CS4296%20-%20Cloud%20Computing/Group%20Project/DemoRunner/demorunner/src/main/scala/runner/Cmd.scala, 137, 137, 151)
+2023.04.26 15:52:52 INFO  compiling root (1 scala source)[0m
+2023.04.26 15:52:52 INFO  time: compiled root in 0.6s[0m
+2023.04.26 15:53:44 INFO  compiling root (1 scala source)[0m
+2023.04.26 15:53:44 INFO  time: compiled root in 0.62s[0m
+2023.04.26 17:21:31 INFO  compiling root (1 scala source)[0m
+2023.04.26 17:21:31 INFO  time: compiled root in 0.2s[0m
+2023.04.26 17:21:37 INFO  compiling root (3 scala sources)[0m
+2023.04.26 17:21:37 INFO  time: compiled root in 0.71s[0m
+2023.04.26 17:22:00 INFO  compiling root (3 scala sources)[0m
+2023.04.26 17:22:04 INFO  time: compiled root in 3.45s[0m
+2023.04.26 17:26:17 INFO  compiling root (1 scala source)[0m
+2023.04.26 17:26:17 INFO  time: compiled root in 0.41s[0m
+2023.04.26 17:28:55 INFO  compiling root (1 scala source)[0m
+2023.04.26 17:28:55 INFO  time: compiled root in 0.13s[0m
+2023.04.26 17:30:43 INFO  file:///Users/alexscriba/Documents/Programming/University/CS4296%20-%20Cloud%20Computing/Group%20Project/DemoRunner/demorunner/src/main/scala/runner/Cmd.scala:20:14: stale bloop error: not found: value logger
+      cmd.!<(logger)
+             ^^^^^^[0m
+2023.04.26 17:30:43 INFO  file:///Users/alexscriba/Documents/Programming/University/CS4296%20-%20Cloud%20Computing/Group%20Project/DemoRunner/demorunner/src/main/scala/runner/Cmd.scala:20:14: stale bloop error: not found: value logger
+      cmd.!<(logger)
+             ^^^^^^[0m
+2023.04.26 17:30:43 INFO  file:///Users/alexscriba/Documents/Programming/University/CS4296%20-%20Cloud%20Computing/Group%20Project/DemoRunner/demorunner/src/main/scala/runner/Cmd.scala:20:14: stale bloop error: not found: value logger
+      cmd.!<(logger)
+             ^^^^^^[0m
+2023.04.26 17:30:43 INFO  file:///Users/alexscriba/Documents/Programming/University/CS4296%20-%20Cloud%20Computing/Group%20Project/DemoRunner/demorunner/src/main/scala/runner/Cmd.scala:20:14: stale bloop error: not found: value logger
+      cmd.!<(logger)
+             ^^^^^^[0m
+2023.04.26 17:31:14 INFO  file:///Users/alexscriba/Documents/Programming/University/CS4296%20-%20Cloud%20Computing/Group%20Project/DemoRunner/demorunner/src/main/scala/runner/Cmd.scala:20:14: stale bloop error: not found: value logger
+      cmd.!<(logger)
+             ^^^^^^[0m
+2023.04.26 17:31:14 INFO  file:///Users/alexscriba/Documents/Programming/University/CS4296%20-%20Cloud%20Computing/Group%20Project/DemoRunner/demorunner/src/main/scala/runner/Cmd.scala:20:14: stale bloop error: not found: value logger
+      cmd.!<(logger)
+             ^^^^^^[0m
+2023.04.26 17:31:14 INFO  file:///Users/alexscriba/Documents/Programming/University/CS4296%20-%20Cloud%20Computing/Group%20Project/DemoRunner/demorunner/src/main/scala/runner/Cmd.scala:20:14: stale bloop error: not found: value logger
+      cmd.!<(logger)
+             ^^^^^^[0m
+2023.04.26 17:31:14 INFO  file:///Users/alexscriba/Documents/Programming/University/CS4296%20-%20Cloud%20Computing/Group%20Project/DemoRunner/demorunner/src/main/scala/runner/Cmd.scala:20:14: stale bloop error: not found: value logger
+      cmd.!<(logger)
+             ^^^^^^[0m
+2023.04.26 17:31:19 INFO  compiling root (1 scala source)[0m
+2023.04.26 17:31:19 INFO  time: compiled root in 0.67s[0m
+2023.04.26 17:34:57 INFO  compiling root (1 scala source)[0m
+2023.04.26 17:34:57 INFO  time: compiled root in 0.59s[0m
+2023.04.26 17:36:21 INFO  compiling root (1 scala source)[0m
+2023.04.26 17:36:22 INFO  time: compiled root in 1.07s[0m
+2023.04.26 17:36:22 INFO  compiling root (3 scala sources)[0m
+2023.04.26 17:36:23 INFO  time: compiled root in 1.22s[0m
+2023.04.26 17:38:09 INFO  compiling root (1 scala source)[0m
+2023.04.26 17:38:09 INFO  time: compiled root in 0.19s[0m
+2023.04.26 17:38:17 INFO  compiling root (1 scala source)[0m
+2023.04.26 17:38:20 INFO  time: compiled root in 2.88s[0m
+2023.04.26 18:15:51 INFO  compiling root (1 scala source)[0m
+2023.04.26 18:15:51 INFO  time: compiled root in 0.74s[0m
+Apr 26, 2023 6:17:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: -1 is out of bounds (min 0, max 2)
+java.lang.IndexOutOfBoundsException: -1 is out of bounds (min 0, max 2)
+	at scala.collection.mutable.ArrayBuffer.apply(ArrayBuffer.scala:106)
+	at scala.reflect.internal.Types$Type.findMemberInternal$1(Types.scala:1030)
+	at scala.reflect.internal.Types$Type.findMember(Types.scala:1035)
+	at scala.reflect.internal.Types$Type.memberBasedOnName(Types.scala:661)
+	at scala.reflect.internal.Types$Type.member(Types.scala:625)
+	at scala.tools.nsc.typechecker.Contexts$SymbolLookup.apply(Contexts.scala:1416)
+	at scala.tools.nsc.typechecker.Contexts$Context.lookupSymbol(Contexts.scala:1298)
+	at scala.meta.internal.pc.Signatures$ShortenedNames$.$anonfun$synthesize$1(Signatures.scala:53)
+	at scala.meta.internal.pc.Signatures$ShortenedNames.nameResolvesToSymbol(Signatures.scala:143)
+	at scala.meta.internal.pc.Signatures$ShortenedNames.isSymbolInScope(Signatures.scala:136)
+	at scala.meta.internal.pc.MetalsGlobal.loop$1(MetalsGlobal.scala:276)
+	at scala.meta.internal.pc.MetalsGlobal.shortType(MetalsGlobal.scala:452)
+	at scala.meta.internal.pc.Signatures$ShortenedNames$.synthesize(Signatures.scala:59)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:169)
+	at scala.collection.Iterator$$anon$9.next(Iterator.scala:584)
+	at scala.collection.immutable.List.prependedAll(List.scala:156)
+	at scala.collection.immutable.List$.from(List.scala:684)
+	at scala.collection.immutable.List$.from(List.scala:681)
+	at scala.collection.SeqFactory$Delegate.from(Factory.scala:306)
+	at scala.collection.immutable.Seq$.from(Seq.scala:42)
+	at scala.collection.IterableOnceOps.toSeq(IterableOnce.scala:1300)
+	at scala.collection.IterableOnceOps.toSeq$(IterableOnce.scala:1300)
+	at scala.collection.AbstractIterator.toSeq(Iterator.scala:1300)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:260)
+
+2023.04.26 18:17:17 INFO  compiling root (1 scala source)[0m
+2023.04.26 18:17:17 INFO  time: compiled root in 0.55s[0m
+2023.04.26 18:17:17 INFO  compiling root (1 scala source)[0m
+2023.04.26 18:17:17 INFO  time: compiled root in 0.2s[0m
+2023.04.26 18:24:52 INFO  compiling root (3 scala sources)[0m
+2023.04.26 18:24:52 INFO  time: compiled root in 0.57s[0m
+2023.04.26 18:26:05 INFO  file:///Users/alexscriba/Documents/Programming/University/CS4296%20-%20Cloud%20Computing/Group%20Project/DemoRunner/demorunner/src/main/scala/runner/Main.scala:34:22: stale bloop error: not enough arguments for method runAll: (langData: List[runner.LangData], parentDir: String): Unit.
+Unspecified value parameter parentDir.
+    case Mode.Run => Cmd.runAll(langData)
+                     ^^^^^^^^^^^^^^^^^^^^[0m
+2023.04.26 18:26:05 INFO  file:///Users/alexscriba/Documents/Programming/University/CS4296%20-%20Cloud%20Computing/Group%20Project/DemoRunner/demorunner/src/main/scala/runner/Main.scala:35:24: stale bloop error: not enough arguments for method setupAll: (langData: List[runner.LangData], parentDir: String): Unit.
+Unspecified value parameter parentDir.
+    case Mode.Setup => Cmd.setupAll(langData)
+                       ^^^^^^^^^^^^^^^^^^^^^^[0m
+2023.04.26 18:26:05 INFO  file:///Users/alexscriba/Documents/Programming/University/CS4296%20-%20Cloud%20Computing/Group%20Project/DemoRunner/demorunner/src/main/scala/runner/Main.scala:34:22: stale bloop error: not enough arguments for method runAll: (langData: List[runner.LangData], parentDir: String): Unit.
+Unspecified value parameter parentDir.
+    case Mode.Run => Cmd.runAll(langData)
+                     ^^^^^^^^^^^^^^^^^^^^[0m
+2023.04.26 18:26:05 INFO  file:///Users/alexscriba/Documents/Programming/University/CS4296%20-%20Cloud%20Computing/Group%20Project/DemoRunner/demorunner/src/main/scala/runner/Main.scala:35:24: stale bloop error: not enough arguments for method setupAll: (langData: List[runner.LangData], parentDir: String): Unit.
+Unspecified value parameter parentDir.
+    case Mode.Setup => Cmd.setupAll(langData)
+                       ^^^^^^^^^^^^^^^^^^^^^^[0m
+2023.04.26 18:26:43 INFO  compiling root (3 scala sources)[0m
+2023.04.26 18:26:45 INFO  time: compiled root in 1.47s[0m
+2023.04.26 18:26:58 INFO  compiling root (1 scala source)[0m
+2023.04.26 18:27:01 INFO  time: compiled root in 2.56s[0m
+2023.04.26 18:28:49 INFO  compiling root (1 scala source)[0m
+2023.04.26 18:28:50 INFO  time: compiled root in 1.15s[0m
+2023.04.26 18:28:50 INFO  compiling root (1 scala source)[0m
+2023.04.26 18:28:50 INFO  time: compiled root in 0.39s[0m
+2023.04.26 18:32:48 INFO  compiling root (1 scala source)[0m
+2023.04.26 18:32:48 INFO  time: compiled root in 0.12s[0m
+2023.04.26 18:32:57 INFO  compiling root (1 scala source)[0m
+2023.04.26 18:32:57 INFO  time: compiled root in 0.12s[0m
+2023.04.26 18:33:10 INFO  compiling root (3 scala sources)[0m
+2023.04.26 18:33:10 INFO  time: compiled root in 0.54s[0m
+2023.04.26 18:33:17 INFO  compiling root (3 scala sources)[0m
+2023.04.26 18:33:18 INFO  time: compiled root in 1.19s[0m
+2023.04.26 18:34:32 INFO  compiling root (1 scala source)[0m
+2023.04.26 18:34:32 INFO  time: compiled root in 0.13s[0m
+2023.04.26 18:34:38 INFO  compiling root (1 scala source)[0m
+2023.04.26 18:34:38 INFO  time: compiled root in 0.59s[0m
+2023.04.26 18:35:39 INFO  compiling root (1 scala source)[0m
+2023.04.26 18:35:39 INFO  time: compiled root in 0.91s[0m
+2023.04.26 18:37:08 INFO  compiling root (1 scala source)[0m
+2023.04.26 18:37:08 INFO  time: compiled root in 0.66s[0m
+2023.04.26 18:37:52 INFO  compiling root (1 scala source)[0m
+2023.04.26 18:37:54 INFO  time: compiled root in 2.02s[0m
+2023.04.26 18:38:04 INFO  compiling root (1 scala source)[0m
+2023.04.26 18:38:06 INFO  time: compiled root in 1.43s[0m
+Apr 26, 2023 6:51:43 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+Apr 26, 2023 6:51:54 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+Apr 26, 2023 6:53:17 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+2023.04.26 18:53:25 INFO  compiling root (1 scala source)[0m
+2023.04.26 18:53:25 INFO  time: compiled root in 0.17s[0m
+2023.04.26 18:53:33 INFO  compiling root (1 scala source)[0m
+2023.04.26 18:53:33 INFO  time: compiled root in 0.16s[0m
+2023.04.26 18:53:43 INFO  compiling root (1 scala source)[0m
+2023.04.26 18:53:43 INFO  time: compiled root in 0.66s[0m
+2023.04.26 18:56:37 INFO  compiling root (1 scala source)[0m
+2023.04.26 18:56:37 INFO  time: compiled root in 59ms[0m
+2023.04.26 18:56:44 INFO  compiling root (1 scala source)[0m
+2023.04.26 18:56:44 INFO  time: compiled root in 64ms[0m
+2023.04.26 18:58:26 INFO  compiling root (1 scala source)[0m
+2023.04.26 18:58:26 INFO  time: compiled root in 0.66s[0m
+Apr 26, 2023 7:01:10 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: Range [836, 836 + -1) out of bounds for length 1664
+Apr 26, 2023 7:01:17 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.memberType(scala.reflect.internal.Symbols$Symbol)" because "pre" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.memberType(scala.reflect.internal.Symbols$Symbol)" because "pre" is null
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:886)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:56)
+	at scala.meta.internal.pc.completions.Completions.fromIdentApply$1(Completions.scala:458)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:485)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:433)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:425)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:407)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:33)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:466)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:161)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:88)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2023.04.26 19:01:52 INFO  compiling root (1 scala source)[0m
+2023.04.26 19:01:52 INFO  time: compiled root in 0.73s[0m
+2023.04.26 19:02:24 INFO  compiling root (1 scala source)[0m
+2023.04.26 19:02:24 INFO  time: compiled root in 0.66s[0m
+2023.04.26 19:03:10 INFO  compiling root (1 scala source)[0m
+2023.04.26 19:03:13 INFO  time: compiled root in 2.5s[0m
