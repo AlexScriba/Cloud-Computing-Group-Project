@@ -41,7 +41,7 @@
   },
   {
     "name": "Java",
-    "dir": "../../BEnchmarking/Java/",
+    "dir": "../../Benchmarking/Java/",
     "setup": {
       "args": ["javac FibRecursive.java"]
     },
