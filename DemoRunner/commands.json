@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Javascript",
+    "dir": "../../Benchmarking/Javascript/",
+    "setup": {
+      "args": ["npm install", "tsc"]
+    },
+    "run": {
+      "args": ["node ./js/fib.js 20"]
+    }
+  },
+  {
+    "name": "Rust",
+    "dir": "../../Benchmarking/Rust/fib/",
+    "setup": {
+      "args": ["cargo build --release"]
+    },
+    "run": {
+      "args": ["./target/release/fib 20"]
+    }
+  },
+  {
+    "name": "c++",
+    "dir": "../../Benchmarking/C++/",
+    "setup": {
+      "args": ["g++ fib.cpp -o fib"]
+    },
+    "run": {
+      "args": ["./fib 20"]
+    }
+  },
+  {
+    "name": "Go",
+    "dir": "../../Benchmarking/Go/",
+    "setup": {
+      "args": ["go build main.go"]
+    },
+    "run": {
+      "args": ["./main 20"]
+    }
+  },
+  {
+    "name": "Java",
+    "dir": "../../BEnchmarking/Java/",
+    "setup": {
+      "args": ["javac FibRecursive.java"]
+    },
+    "run": {
+      "args": ["java FibRecursive 20"]
+    }
+  }
+]
