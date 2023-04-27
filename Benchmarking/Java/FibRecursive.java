@@ -12,7 +12,7 @@ public class FibRecursive {
         if (args.length < 1) {
             throw new IllegalArgumentException("One parameter expected");
         }
-        long n = Long.parseLong(args[1]);
+        long n = Long.parseLong(args[0]);
         long res = fibRecursive(n);
         System.out.println(res);
     }
