@@ -14,22 +14,6 @@ case class LangData(
 
 object Json {
   
-  val testJson = 
-    """
-      [
-        {
-          "name": "Javascript",
-          "dir": "../Benchmarking/Javascript/",
-          "setup": {
-            "args": ["npm install"]
-          },
-          "execute": {
-            "args": ["tsc", "node ./js/fib.ts"]
-          }
-        }
-      ]
-    """.stripMargin
-  
   def decodeData(dataString: String): Either[Throwable, List[LangData]] = {
     implicit val executionSetupDecoder = deriveDecoder[ExecutionSetup]
     implicit val langDataDecoder = deriveDecoder[LangData]
