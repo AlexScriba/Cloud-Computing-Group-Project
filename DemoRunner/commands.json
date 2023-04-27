@@ -6,7 +6,11 @@
       "args": ["npm install", "tsc"]
     },
     "run": {
-      "args": ["node ./js/fib.js 40"]
+      "args": [
+        "node ./js/fib.js 30",
+        "node ./js/fib.js 40",
+        "node ./js/fib.js 45"
+      ]
     }
   },
   {
@@ -16,7 +20,11 @@
       "args": ["cargo build --release"]
     },
     "run": {
-      "args": ["./target/release/fib 40"]
+      "args": [
+        "./target/release/fib 30",
+        "./target/release/fib 40",
+        "./target/release/fib 45"
+      ]
     }
   },
   {
@@ -26,7 +34,7 @@
       "args": ["g++ fib.cpp -o fib"]
     },
     "run": {
-      "args": ["./fib 40"]
+      "args": ["./fib 30", "./fib 40", "./fib 45"]
     }
   },
   {
@@ -36,7 +44,7 @@
       "args": ["go build main.go"]
     },
     "run": {
-      "args": ["./main 40"]
+      "args": ["./main 30", "./main 40", "./main 45"]
     }
   },
   {
@@ -46,7 +54,11 @@
       "args": ["javac FibRecursive.java"]
     },
     "run": {
-      "args": ["java FibRecursive 40"]
+      "args": [
+        "java FibRecursive 30",
+        "java FibRecursive 40",
+        "java FibRecursive 45"
+      ]
     }
   }
 ]
