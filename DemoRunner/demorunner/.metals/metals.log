@@ -1836,3 +1836,49 @@ INFO: JBoss Threads version 3.1.0.Final
 2023.04.27 14:00:37 INFO  time: indexed workspace in 2.91s[0m
 2023.04.27 14:00:39 INFO  compiling root-test (1 scala source)[0m
 2023.04.27 14:00:39 INFO  time: compiled root-test in 49ms[0m
+2023.04.27 18:10:47 INFO  Shutting down server[0m
+2023.04.27 18:10:47 INFO  shutting down Metals[0m
+2023.04.27 18:10:47 INFO  Shut down connection with build server.[0m
+2023.04.27 18:10:47 INFO  Shut down connection with build server.[0m
+Apr 27, 2023 6:10:47 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.20.Final
+2023.04.28 15:18:17 INFO  Started: Metals version 0.11.12 in workspace '/Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner' for client Neovim 0.8.0.[0m
+Apr 28, 2023 3:18:17 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Apr 28, 2023 3:18:17 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Apr 28, 2023 3:18:17 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Apr 28, 2023 3:18:17 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner/.metals/metals (H2 2.1)
+Apr 28, 2023 3:18:17 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.011s)
+Apr 28, 2023 3:18:17 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Apr 28, 2023 3:18:17 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.28 15:18:18 INFO  time: initialize in 0.37s[0m
+2023.04.28 15:18:18 INFO  Attempting to connect to the build server...[0m
+2023.04.28 15:18:18 INFO  Selected port 5031[0m
+2023.04.28 15:18:18 INFO  Bloop uses /Users/alexscriba/.jabba/jdk/openjdk@1.17.0/Contents/Home defined at /Users/alexscriba/.bloop/bloop.json[0m
+Apr 28, 2023 3:18:18 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.20.Final
+Apr 28, 2023 3:18:18 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.9.Final
+Apr 28, 2023 3:18:18 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.9.Final
+2023.04.28 15:18:18 INFO  skipping build import with status 'Installed'[0m
+Apr 28, 2023 3:18:18 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2023.04.28 15:18:18 INFO  Started Metals http server at http://127.0.0.1:5031[0m
+2023.04.28 15:18:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner/.metals/bsp.trace.json or /Users/alexscriba/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.04.28 15:18:18 INFO  Attempting to connect to the build server...[0m
+2023.04.28 15:18:18 INFO  Bloop uses /Users/alexscriba/.jabba/jdk/openjdk@1.17.0/Contents/Home defined at /Users/alexscriba/.bloop/bloop.json[0m
+2023.04.28 15:18:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alexscriba/Documents/Programming/University/CS4296 - Cloud Computing/Group Project/DemoRunner/demorunner/project/.metals/bsp.trace.json or /Users/alexscriba/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.04.28 15:18:18 INFO  time: Connected to build server in 0.64s[0m
+2023.04.28 15:18:18 INFO  Connected to Build server: Bloop v1.5.6[0m
+2023.04.28 15:18:22 INFO  time: indexed workspace in 3.99s[0m
+2023.04.28 15:18:23 INFO  compiling root-test (1 scala source)[0m
+2023.04.28 15:18:23 INFO  time: compiled root-test in 44ms[0m
+2023.04.28 15:19:40 INFO  compiling root (1 scala source)[0m
+2023.04.28 15:19:40 INFO  time: compiled root in 0.81s[0m
