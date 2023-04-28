@@ -64,9 +64,12 @@ object Cmd {
       }
 
       println("Success")
+      println("Output:")
       println(processOutput.toString)
 
       val elapsedTime = endTime - startTime
+      println(s"Time: $elapsedTime")
+
       elapsedTime
     }
   }
