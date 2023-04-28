@@ -1,5 +1,3 @@
-package Benchmarking.Java;
-
 public class FibRecursive {
     public static long fibRecursive(long n) {
         if (n <= 1) {

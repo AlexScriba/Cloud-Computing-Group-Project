@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Javascript",
+    "dir": "../../Benchmarking/Javascript/",
+    "setup": {
+      "args": ["npm install", "tsc"]
+    },
+    "run": {
+      "args": [
+        "node ./js/fib.js 30",
+        "node ./js/fib.js 40",
+        "node ./js/fib.js 45"
+      ]
+    }
+  },
+  {
+    "name": "Rust",
+    "dir": "../../Benchmarking/Rust/fib/",
+    "setup": {
+      "args": ["cargo build --release"]
+    },
+    "run": {
+      "args": [
+        "./target/release/fib 30",
+        "./target/release/fib 40",
+        "./target/release/fib 45"
+      ]
+    }
+  },
+  {
+    "name": "c++",
+    "dir": "../../Benchmarking/C++/",
+    "setup": {
+      "args": ["g++ fib.cpp -o fib"]
+    },
+    "run": {
+      "args": ["./fib 30", "./fib 40", "./fib 45"]
+    }
+  },
+  {
+    "name": "Go",
+    "dir": "../../Benchmarking/Go/",
+    "setup": {
+      "args": ["go build main.go"]
+    },
+    "run": {
+      "args": ["./main 30", "./main 40", "./main 45"]
+    }
+  },
+  {
+    "name": "Java",
+    "dir": "../../Benchmarking/Java/",
+    "setup": {
+      "args": ["javac FibRecursive.java"]
+    },
+    "run": {
+      "args": [
+        "java FibRecursive 30",
+        "java FibRecursive 40",
+        "java FibRecursive 45"
+      ]
+    }
+  }
+]
